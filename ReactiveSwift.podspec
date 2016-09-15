@@ -1,5 +1,4 @@
 {
-  "name": "ReactiveSwift",
   "version": "0.1",
   "summary": "A framework for composing and transforming streams of values.",
   "description": "ReactiveSwift is the best.",
