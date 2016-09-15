@@ -22,7 +22,7 @@
     "branch": "master"
   },
   "dependencies": {
-    "ResultSwift": [
+    "ReactiveSwift": [
       "~> 0.1"
     ]
   },
