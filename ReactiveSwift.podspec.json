@@ -32,7 +32,7 @@
     "**/*EXTRuntimeExtensions.h",
     "**/RACEmpty*.h"
   ],
-  "source_files": "ReactiveSwift/**/*.{d,h,m,swift}",
+  "source_files": "Sources/**/*.{d,h,m,swift}",
   "ios": {
     "exclude_files": "ReactiveSwift/**/*{AppKit,NSControl,NSText,NSTable}*"
   },
