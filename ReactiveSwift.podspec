@@ -3,7 +3,7 @@
   "version": "0.1",
   "summary": "A framework for composing and transforming streams of values.",
   "description": "ReactiveSwift is the best.",
-  "homepage": "https://github.com/ReactiveCocoa/ReactiveSwift",
+  "homepage": "https://github.com/pteasima/ReactiveSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE.md"
@@ -18,7 +18,7 @@
     "watchos": "2.0"
   },
   "source": {
-    "git": "https://github.com/ReactiveCocoa/ReactiveSwift.git",
+    "git": "https://github.com/pteasima/ReactiveSwift.git",
     "branch": "master"
   },
   "dependencies": {
