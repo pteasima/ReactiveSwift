@@ -1,8 +1,9 @@
 {
-  "version": "0.1",
+  "name": "ReactiveCocoa",
+  "version": "4.2.2",
   "summary": "A framework for composing and transforming streams of values.",
-  "description": "ReactiveSwift is the best.",
-  "homepage": "https://github.com/pteasima/ReactiveSwift",
+  "description": "ReactiveCocoa (RAC) is an Objective-C framework for Functional Reactive Programming.\nIt provides APIs for composing and transforming streams of values.",
+  "homepage": "https://github.com/ReactiveCocoa/ReactiveCocoa",
   "license": {
     "type": "MIT",
     "file": "LICENSE.md"
@@ -17,12 +18,12 @@
     "watchos": "2.0"
   },
   "source": {
-    "git": "https://github.com/pteasima/ReactiveSwift.git",
-    "branch": "master"
+    "git": "https://github.com/ReactiveCocoa/ReactiveCocoa.git",
+    "tag": "v4.2.2"
   },
   "dependencies": {
     "Result": [
-      "~> 3.0"
+      "~> 2.0"
     ]
   },
   "frameworks": "Foundation",
@@ -31,17 +32,17 @@
     "**/*EXTRuntimeExtensions.h",
     "**/RACEmpty*.h"
   ],
-  "source_files": "ReactiveSwift/**/*.{d,h,m,swift}",
+  "source_files": "ReactiveCocoa/**/*.{d,h,m,swift}",
   "ios": {
-    "exclude_files": "ReactiveSwift/**/*{AppKit,NSControl,NSText,NSTable}*"
+    "exclude_files": "ReactiveCocoa/**/*{AppKit,NSControl,NSText,NSTable}*"
   },
   "osx": {
-    "exclude_files": "ReactiveSwift/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText,MK}*"
+    "exclude_files": "ReactiveCocoa/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText,MK}*"
   },
   "tvos": {
-    "exclude_files": "ReactiveSwift/**/*{AppKit,NSControl,NSText,NSTable,UIActionSheet,UIAlertView,UIDatePicker,UIImagePicker,UIRefreshControl,UISlider,UIStepper,UISwitch,MK}*"
+    "exclude_files": "ReactiveCocoa/**/*{AppKit,NSControl,NSText,NSTable,UIActionSheet,UIAlertView,UIDatePicker,UIImagePicker,UIRefreshControl,UISlider,UIStepper,UISwitch,MK}*"
   },
   "watchos": {
-    "exclude_files": "ReactiveSwift/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText,MK,AppKit,NSControl,NSText,NSTable,NSURLConnection}*"
+    "exclude_files": "ReactiveCocoa/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText,MK,AppKit,NSControl,NSText,NSTable,NSURLConnection}*"
   }
 }
